@@ -14,6 +14,8 @@ Place library into your lib folder.
 #include <Arduino.h>
 #include <./ArduinoSchedule/src/schedule.h>
 
+schedule schedule_30_seconds = {0, 30000};
+
 void schedule_30_seconds_run()
 {
     Serial.println("--TEMP");
